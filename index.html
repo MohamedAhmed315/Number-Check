@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd - Even</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="evenOrOdd(); prime();">
+    <label>Enter a number:</label>
+    <input type="number" id="num" value="0" oninput="validity.valid||(value='0');"><br/><br/>
+
+    <button id="check" onclick="evenOrOdd(); prime();">Check</button><br/><br/>
+
+    <label id="oddEven"> </label>
+    <label id="isPrime"> </label>
+
+    <script src="main.js"></script>
+</body>
+</html>
